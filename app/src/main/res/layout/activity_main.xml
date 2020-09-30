@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/calculo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cadastrar produtos"
+        android:gravity="center"
+        android:layout_marginTop="30sp"
+        android:textSize="20sp"/>
+
+    <EditText
+        android:id="@+id/txtNomeProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Nome do produto" />
+
+    <EditText
+        android:id="@+id/txtCustoProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Custo do produto"/>
+
+    <EditText
+        android:id="@+id/txtPrecoVendProd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10sp"
+        android:hint="Preço de venda do produto"/>
+
+    <Button
+        android:id="@+id/btLimpar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Limpar"/>
+    <Button
+        android:id="@+id/btSalvar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Salvar"/>
+    <Button
+        android:id="@+id/btBuscar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscar"/>
+    <Button
+        android:id="@+id/btCalcLucro"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Lucro/Prejuizo"/>
+</LinearLayout>
